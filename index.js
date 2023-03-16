@@ -6,6 +6,13 @@ let questions = [
     message: "What letters would you like to use? (Up to 3)",
     type: "input",
     name: "abrv",
+    validate: function(input) {
+      if (input.length > 3) {
+        // console.log("must be 3 characters or less")
+        return "must be 3 characters or less";
+      }
+      return true;
+    }
   },
   {
     message: "What color would you like for the text?",
