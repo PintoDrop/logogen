@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## *Table Of Contents*
+## _Table Of Contents_
 
 1. [Description](#description)
 2. [Usage](#usage)
@@ -20,13 +20,13 @@
 
 ## Installation
 
-You will need to use npm install after cloning the repo to install this project.
+You will need to use npm install for jest & inquierer after cloning the repo to install this project.
 
 ## License
 
 MIT
 
-*Website for license*
+_Website for license_
 
 [MIT License Website](https://mit-license.org/)
 
@@ -34,24 +34,24 @@ MIT
 
 GIVEN a command-line application that accepts user input
 
-*WHEN I am prompted for text*
+_WHEN I am prompted for text_
 **THEN I can enter up to three characters**
 
-*WHEN I am prompted for the text color*
+_WHEN I am prompted for the text color_
 **THEN I can enter a color keyword (OR a hexadecimal number)**
 
-*WHEN I am prompted for a shape*
+_WHEN I am prompted for a shape_
 **THEN I am presented with a list of shapes to choose from: circle, triangle, and square**
 
-*WHEN I am prompted for the shape's color*
+_WHEN I am prompted for the shape's color_
 **THEN I can enter a color keyword (OR a hexadecimal number)**
 
-*WHEN I have entered input for all the prompts*
+_WHEN I have entered input for all the prompts_
 **THEN an SVG file is created named `logo.svg`**
 **AND the output text "Generated logo.svg" is printed in the command line**
 
 *WHEN I open the `logo.svg` file in a browser*
-*THEN I am shown a 300x200 pixel image that matches the criteria I entered*
+**THEN I am shown a 300x200 pixel image that matches the criteria I entered**
 
 ## Repository-Link
 
