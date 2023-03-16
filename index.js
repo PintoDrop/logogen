@@ -9,12 +9,12 @@ let questions = [
   },
   {
     message: "What color would you like for the text?",
-    type: "list",
+    type: "input",
     name: "colortxt",
   },
   {
     message: "What shape would you like the logo to be?",
-    type: "input",
+    type: "list",
     choices: ["Circle", "Triangle", "Square"],
     name: "shape",
   },
