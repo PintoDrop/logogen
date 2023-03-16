@@ -1,6 +1,5 @@
-let inquierer = require("inquirer");
-let jest = require("jest");
-
+const inquierer = require("inquirer");
+const jest = require("jest");
 
 let questions = [
   {
@@ -16,7 +15,7 @@ let questions = [
   {
     message: "What shape would you like the logo to be?",
     type: "input",
-    choices: ["Circle", "Triangle", "Square" ],
+    choices: ["Circle", "Triangle", "Square"],
     name: "shape",
   },
   {
@@ -27,10 +26,10 @@ let questions = [
 ];
 
 // function logoGen() {
-  inquierer
-    .prompt(questions)
-    .then((response) => {
-      console.log(response)
-    })
-    .catch((err) => console.log(err));
+inquierer
+  .prompt(questions)
+  .then((response) => {
+    console.log(response);
+  })
+  .catch((err) => console.log(err));
 // }
