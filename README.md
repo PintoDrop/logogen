@@ -16,7 +16,11 @@
 
 ## Description
 
+For this project I was tasked with creating a logo generator. I would use node to have the user respond to prompts about what they wanted for their logo. The user is able to enter up to 3 letters, pick the color of the text, the shape (choosing between cricle triangle and square) and then picking the color of the shape to use. The user will be able to quickly use the this to create a logo. The user will be presented with an SVG file that will contain the logo once finished.
+
 ## Usage
+
+The user will go through a series of prompts to create a logo. The logo with have up to 3 letters, will be able to pick between 3 shapes and choose the color of both the text and the shape. This will allow the user to save time creating a logo they can use for their business or website.
 
 ## Installation
 
@@ -67,4 +71,4 @@ _WHEN I have entered input for all the prompts_
 
 ## Screen-Shots
 
-![Example Of Read Me Screenshot]()
+![Example Of Logo Screenshot]()
