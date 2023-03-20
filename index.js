@@ -53,10 +53,9 @@ function logoGen() {
 inquierer
   .prompt(questions)
   .then((response) => {
-    console.log("Generated logo.svg", response);
+    console.log("Generated logo.svg");
     return writeToFile("logo.svg", generateLogo({ ...response }));
     })
-    // console.log("Generated logo.svg")
     .catch((err) => console.log(err));
 }
 
