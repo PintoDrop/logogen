@@ -2,21 +2,21 @@ const inquierer = require("inquirer");
 const jest = require("jest");
 const fs = require("fs");
 const path = require("path");
-let generateLogo = require("./lib/generateLogo");
-let shapes = require ("./lib/shapes")
+let generateLogo = require("./generateLogo");
+let shapes = require("./lib/shapes");
 
 let questions = [
   {
     message: "What letters would you like to use? (Up to 3)",
     type: "input",
     name: "abrv",
-    validate: function(input) {
+    validate: function (input) {
       if (input.length > 3) {
         // console.log("must be 3 characters or less")
         return "must be 3 characters or less";
       }
       return true;
-    }
+    },
   },
   {
     message: "What color would you like for the text?",
@@ -43,20 +43,18 @@ let questions = [
   },
 ];
 
-
 function writeToFile(fileName, data) {
   return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
-
 function logoGen() {
-inquierer
-  .prompt(questions)
-  .then((response) => {
-    console.log("Generated logo.svg");
-    return writeToFile("logo.svg", generateLogo({ ...response }));
+  inquierer
+    .prompt(questions)
+    .then((response) => {
+      console.log("Generated logo.svg");
+      return writeToFile("./examples/logo.html", generateLogo({ ...response }));
     })
     .catch((err) => console.log(err));
 }
 
-logoGen()
+logoGen();
