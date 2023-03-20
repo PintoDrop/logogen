@@ -52,10 +52,11 @@ function logoGen() {
 inquierer
   .prompt(questions)
   .then((response) => {
-    console.log(response);
-    return writeToFile("logoTest.html", generateLogo({ ...response }));
+    console.log("Generated logo.svg", response);
+    return writeToFile("logo.svg", generateLogo({ ...response }));
     })
-  .catch((err) => console.log(err));
+    // console.log("Generated logo.svg")
+    .catch((err) => console.log(err));
 }
 
 logoGen()
