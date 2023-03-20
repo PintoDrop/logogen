@@ -25,7 +25,7 @@ let questions = [
   {
     message: "What shape would you like the logo to be?",
     type: "list",
-    choices: ["Circle", "Triangle", "Square"],
+    choices: ["circle", "triangle", "square"],
     name: "shape",
   },
   {
@@ -34,16 +34,19 @@ let questions = [
     name: "colorshp",
   },
 ];
+
+
 function writeToFile(fileName, data) {
   return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
+
 
 function logoGen() {
 inquierer
   .prompt(questions)
   .then((response) => {
     console.log(response);
-    return writeToFile("example.svg", generateLogo({ ...response }));
+    return writeToFile("logoTest.html", generateLogo({ ...response }));
     })
   .catch((err) => console.log(err));
 }
