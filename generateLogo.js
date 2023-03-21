@@ -1,6 +1,6 @@
 function render(shape) {
     if (shape === "triangle") {
-      return `polygon points="150, 18 244, 182 56, 180"`;
+      return `polygon points="150, 18 244, 182 56, 182"`;
     } else if (shape === "square") {
       return `rect width="100%" height="100%"`;
     } else if (shape === "circle") {

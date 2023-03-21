@@ -3,9 +3,9 @@ const jest = require("jest");
 const fs = require("fs");
 const path = require("path");
 let generateLogo = require("./generateLogo");
-let shapes = require("./lib/shapes");
+// let shapes = require("./lib/shapes");
 
-// const { Circle, Triangle, Square} = require("./lib/shapes");
+const { Circle, Triangle, Square} = require("./lib/shapes");
 
 let questions = [
   {
