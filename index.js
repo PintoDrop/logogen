@@ -5,6 +5,8 @@ const path = require("path");
 let generateLogo = require("./generateLogo");
 let shapes = require("./lib/shapes");
 
+// const { Circle, Triangle, Square} = require("./lib/shapes");
+
 let questions = [
   {
     message: "What letters would you like to use? (Up to 3)",
