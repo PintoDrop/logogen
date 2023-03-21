@@ -63,7 +63,7 @@ _WHEN I have entered input for all the prompts_
 
 ## Walk-Through-Video
 
-[Logo Generator Walkthrough](https://drive.google.com/file/d/1yrcNM6MWo3IIw7dC3eVZ_j5-p8vc34pp/view)
+[Logo Generator Walkthrough](https://drive.google.com/file/d/1MkFEvUNyy3_8ic_MU_gAC0cK6MhTD9eW/view)
 
 ## Screen-Shots
 
