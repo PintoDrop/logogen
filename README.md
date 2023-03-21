@@ -10,9 +10,8 @@
 4. [License](#license)
 5. [Criteria For Assignment](#criteria-for-assignment)
 6. [Repo Link](#repository-link)
-7. [Example of Read Me](#example)
-8. [Walkthrough Video](#walk-through-video)
-9. [Screen Shots](#screen-shots)
+7. [Walkthrough Video](#walk-through-video)
+8. [Screen Shots](#screen-shots)
 
 ## Description
 
