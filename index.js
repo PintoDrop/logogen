@@ -27,13 +27,6 @@ let questions = [
     message: "What shape would you like the logo to be?",
     type: "list",
     choices: ["circle", "triangle", "square"],
-    // validate: function(input) {
-    //   if(input.data = triangle) {
-    //     return polygon;
-    //   }else if (input.data = square){
-    //   return rect;
-    // }
-    // }
     name: "shape",
   },
   {
@@ -52,7 +45,7 @@ function logoGen() {
     .prompt(questions)
     .then((response) => {
       console.log("Generated logo.svg");
-      return writeToFile("./examples/logo.html", generateLogo({ ...response }));
+      return writeToFile("./examples/logo.svg", generateLogo({ ...response }));
     })
     .catch((err) => console.log(err));
 }

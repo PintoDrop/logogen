@@ -61,14 +61,14 @@ _WHEN I have entered input for all the prompts_
 
 [Github](https://github.com/PintoDrop/logogen)
 
-## Example
-
-[Example Logo]()
-
 ## Walk-Through-Video
 
-[Logo Generator Walkthrough]()
+[Logo Generator Walkthrough](https://drive.google.com/file/d/1yrcNM6MWo3IIw7dC3eVZ_j5-p8vc34pp/view)
 
 ## Screen-Shots
 
-![Example Of Logo Screenshot]()
+![Example Of Logo Screenshot](./images/Logo-Example.JPG)
+
+![Second Logo Screenshot](./images/logo-example2.JPG)
+
+![Third Logo Screenshot](./images/logo-example3.JPG)
